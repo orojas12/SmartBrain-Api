@@ -1,0 +1,27 @@
+{
+  "name": "smartbrain-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orojas12/SmartBrain-Api.git"
+  },
+  "author": "Oscar Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orojas12/SmartBrain-Api/issues"
+  },
+  "homepage": "https://github.com/orojas12/SmartBrain-Api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
